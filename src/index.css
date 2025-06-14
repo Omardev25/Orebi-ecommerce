@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --container-container: 1600px; 
+  --font-dm: "DM Sans", sans-serif;
+   --color-primary: #767676; 
+   --color-secondary: #262626; 
+   --color-lightgray: #f5f7f9;
+}
+/* 
+.Heading{
+  background-color: #d8d8d85e;
+} */
