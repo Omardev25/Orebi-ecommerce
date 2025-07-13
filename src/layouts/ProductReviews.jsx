@@ -39,7 +39,7 @@ const ProductReviews = () => {
        <h5 className='text-xl text-secondary font-dm font-bold py-12'>Add a Review</h5> 
 
        {/* Add Review Form   --- I was supposed to use map so that my code would be functional, but now I don't have the knowledge of map */}
-       <form action="">
+       <form >
         <label htmlFor="Name">
           <p className='text-base text-secondary font-dm font-bold pb-2'>Name <span className='text-red-500'>*</span></p>
           <input type="text" id='Name' placeholder='Enter your name' className='w-[48%]  border-b border-[#F0F0F0] rounded-lg focus:outline-none focus:border-primary pb-4' />
